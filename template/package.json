@@ -6,7 +6,9 @@
   "private": true,
   {{/private}}
   "scripts": {
-    "dev": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js & http-server -c 1 -a localhost",
+    "watchify": "watchify -vd -p browserify-hmr -e src/main.js -o dist/build.js",
+    "serve": "http-server -c 1 -a localhost",
+    "dev": "npm-run-all --parallel watchify serve",
     "build": "cross-env NODE_ENV=production browserify src/main.js | uglifyjs -c warnings=false -m > dist/build.js"
   },
   "dependencies": {
@@ -23,6 +25,7 @@
     "browserify": "^12.0.1",
     "browserify-hmr": "^0.3.1",
     "http-server": "^0.9.0",
+    "npm-run-all": "^1.6.0",
     "uglify-js": "^2.5.0",
     "vue-hot-reload-api": "^1.2.2",
     "vueify": "^8.0.0",
