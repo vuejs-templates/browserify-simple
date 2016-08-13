@@ -1,6 +1,6 @@
-# vue-browserify-simple-boilerplate
+# browserify-simple-2.0
 
-> A simple Browserify + `vueify` setup for quick prototyping.
+> A simple Vue 2.0 Browserify + `vueify` setup for quick prototyping.
 
 ### Usage
 
@@ -20,7 +20,7 @@ $ npm run dev
 
 - `npm run build`: Production build with HTML/CSS/JS minification.
 
-For more information see the [docs for vueify](https://github.com/vuejs/vueify).
+For more information see the [docs for vueify](https://github.com/vuejs/vueify). Also checkout [breaking changes in vueify 9.0.0](https://github.com/vuejs/vueify/releases/tag/v9.0.0).
 
 ### Fork It And Make Your Own
 
