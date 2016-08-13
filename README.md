@@ -2,6 +2,8 @@
 
 > A simple Vue 2.0 Browserify + `vueify` setup for quick prototyping.
 
+> This template is Vue 2.0 compatible. For Vue 1.x please look at `1.0` branch.
+
 ### Usage
 
 This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
