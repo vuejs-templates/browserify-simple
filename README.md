@@ -1,4 +1,4 @@
-# browserify-simple-2.0
+# browserify-simple
 
 > A simple Vue 2.0 Browserify + `vueify` setup for quick prototyping.
 
