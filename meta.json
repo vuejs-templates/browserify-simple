@@ -1,5 +1,5 @@
 {
-  "schema": {
+  "prompts": {
     "name": {
       "type": "string",
       "required": true,
@@ -14,10 +14,7 @@
     "author": {
       "type": "string",
       "label": "Author"
-    },
-    "private": {
-      "type": "boolean",
-      "default": true
     }
-  }
+  },
+  "completeMessage": "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run dev"
 }
