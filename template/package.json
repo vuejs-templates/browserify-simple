@@ -31,5 +31,8 @@
       "vueify",
       "babelify"
     ]
+  },
+  "browser": {
+    "vue": "vue/dist/vue.common.js"
   }
 }
